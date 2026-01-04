@@ -28,6 +28,9 @@ elif x < y:
 elif x == y:
     print("x is equal to y")
 
+
+# the simplest code without unnecessary condition checking.
+
 x = int(input("What's x\n?"))
 y = int(input("What's y?\n"))
 
