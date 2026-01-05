@@ -4,21 +4,18 @@ def main():
     tree_print(size)
 
 def get_size():
-    n=int(input("What's size of the tree?"))
 
     while True:
-
-        if n >0:
+        n = int(input("What's size of the tree?"))
+        if n > 0:
             return n
-        else:
-            print("The size value has to be possitive")
-            n = abs(n)
-            print(f"The correct value of the tree' size is {n}")
+        print("The size value has to be possitive")
+        
 
 def tree_print(x):
 
-    for i in range(x):
-        print(int((x-i)/2) * " ", i * "#")
+    for i in range(1, x+1):
+        print(int((x-i)/2) * " ", i * "# ")
 
 
 main()

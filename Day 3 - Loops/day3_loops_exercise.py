@@ -1,5 +1,5 @@
 
-def give_number():
+def give_number(n):
     
     while True:
         n = int(input("Give me a number greater than 0:"))
@@ -13,4 +13,3 @@ def main():
     
 
 main()
-
