@@ -15,7 +15,7 @@ def get_size():
 def tree_print(x):
 
     for i in range(1, x+1):
-        print(int((x-i)/2) * " ", i * "# ")
+        print(int((x-i)/2) * " ", i * "#")
 
 
 main()
