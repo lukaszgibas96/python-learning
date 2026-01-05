@@ -6,8 +6,8 @@ students = {
      }
 
 
-for index in students:
-    print(index, students[index], sep=", ")
+for student in students:
+    print(student, students[student], sep=", ")
 
 # 1st method
 

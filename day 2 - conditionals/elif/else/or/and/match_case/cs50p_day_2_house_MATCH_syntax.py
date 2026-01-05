@@ -4,10 +4,6 @@ match name:
     
     case "Lukasz" | "Piotr" |   "Adam":
         print("Krakow")
-    # case "Piotr":
-    #     print("Krakow")
-    # case "Adam":
-    #     print("Krakow")
     case "Bartek":
         print("Konin")
     case _:

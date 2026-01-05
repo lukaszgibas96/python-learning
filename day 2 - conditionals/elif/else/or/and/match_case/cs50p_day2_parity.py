@@ -9,17 +9,16 @@ def main():
 
 #Parity function version 1 
 
-#   def is_even(n):
+# def is_even(n):
 #     if n % 2 ==0:
 #         return True
 #     else:
 #         return False
 
 
-
 # Parity function version 2
 
-#   def is_even(n):
+# def is_even(n):
 #     return True if n % 2 == 0 else False
 
 # Parity function version 3
@@ -27,7 +26,6 @@ def main():
 def is_even(n):
     return n % 2 ==0
     
-
 
 main()
 
