@@ -9,7 +9,7 @@ I am learning Python using:
 
 ## Repository structure
 - day1 – basics, variables, functions
-- day2 – coming soon
+- day2 – if, elif, else, or, and, match....case
 
 ## Goal
 Build solid Python foundations and create a portfolio for a career change.
