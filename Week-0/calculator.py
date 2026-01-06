@@ -20,7 +20,7 @@ print(f"{z:.2f}")
 
 
 ##############################
-# # Round the number
+# # Number separator 
 
 # z = round(x+y)
 

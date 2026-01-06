@@ -13,7 +13,6 @@ def main():
         print(f"{name} is {distances[name]} AU from the Earth")
 
     print()
-    
 
     for distance in distances.values():
         print(f"{distance} AU is {convert(distance)} m")
