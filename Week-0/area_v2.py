@@ -1,3 +1,5 @@
+# Return value exercise from shorts v2          / return 
+
 def area(length , width):
     print(str(length * width) + " square meters")
     return length * width
