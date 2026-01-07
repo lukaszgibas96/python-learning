@@ -10,6 +10,4 @@ def convert(x):
        return x.replace(":)" , "🙂").replace(":(" , "🙁" )
 
 
-#🙁
-#🙂
 main()
