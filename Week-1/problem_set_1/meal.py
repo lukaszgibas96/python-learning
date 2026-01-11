@@ -13,17 +13,18 @@ def main():
         print("Dinner time") 
 
 def convert(time):
-    
+    time = time.replace("a.m", " a.m").replace("p.m", " p.m")
+
     if "a.m" in time or "p.m" in time:
-        hours_minutes, am_pm = time.split(" ")
+        hours_minutes, am_pm = time.split()
         hours, minutes = hours_minutes.split(":")
         hours = float(hours)
         minutes = float(minutes)
         minutes = minutes / 60
 
-        if am_pm == "p.m":
+        if am_pm == "p.m" and (0 <= hours < 12):
              hours = hours + 12.0
-
+        
         return hours + minutes
 
     else:
@@ -33,7 +34,12 @@ def convert(time):
         minutes = float(minutes)
         minutes = minutes/60
 
-        return hours + minutes
+        if 0 <= hours <=24:
+
+            return hours + minutes
+        else:
+            return None
+    
     
 if __name__ == "__main__":
 
