@@ -20,6 +20,7 @@ elif elements [1] == "/" :
     result = x / z
 else:
     print("Wrong mathematical operator")
+    exit()
 
 
 print(f"{result:.1f}")
