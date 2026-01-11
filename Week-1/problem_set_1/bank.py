@@ -1,4 +1,4 @@
-#
+# Problem Set 1 - Home Federal Saving Bank          /.find()
 greeting = input("Greeting: ").lstrip().lower()
 
 word = greeting.find("hello")
