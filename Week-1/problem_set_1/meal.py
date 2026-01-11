@@ -1,9 +1,12 @@
-# Problem Set 1 - 
+# Problem Set 1 - Meal Time
 
 def main():
     user_time = input("What time is it? ").strip().lower()
 
     float_time = convert(user_time)
+
+    if float_time is None:
+        return
 
     if 7.0 <= float_time <= 8.0:
         print("Breakfast time")
