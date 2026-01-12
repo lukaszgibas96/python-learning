@@ -1,4 +1,4 @@
-# 
+# Dictionary Methods from Shorts            /.pop() /.keys() /.clear() 
 WORDS = {"PAIR": 4 , "HAIR": 4 , "CHAIR": 5, "GRAPHIC": 7}
 
 
@@ -20,12 +20,6 @@ def main():
 
     print("Thats the game!")
 
-
-    # Show the points for each word.
-    #WORDS = {"PAIR": 4 , "HAIR": 4 , "CHAIR": 5, "GRAPHIC": 7}
-
-    #for word, points in WORDS.item():
-    #    print(f"{word} was worth {points} points")
     
 main()
 
