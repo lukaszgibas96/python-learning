@@ -1,4 +1,4 @@
-# Lists                /.
+# Lists v2               /.insert()   /.reverse() /.remove()
 
 results = ["Mario", "Luigi", "Princess", "Yoshi", "Koopa Troopa", "Toad", "Bowser", "Donkey Kong Jr."]
 
@@ -14,3 +14,4 @@ print(results)
 
 results.reverse()
 print(results)
+
