@@ -1,3 +1,5 @@
+# Lists                 /.append()  /.remove()  /.extend()
+
 results = ["Mario", "Luigi"]
 
 results.append("Princess")
