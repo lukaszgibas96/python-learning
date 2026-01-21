@@ -1,4 +1,4 @@
-# Week 3 - Exceptions - Lecture v2             /try:   /except ValueError:
+# Week 3 - Exceptions - Lecture v2             /try:   /except ValueError:  /else:
 
 while True:
     try: 
