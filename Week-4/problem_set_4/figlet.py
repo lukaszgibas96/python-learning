@@ -32,5 +32,5 @@ def convert(f):
     output = figlet.renderText(text)
     print(output)
 
-
-main()
+if __name__ == "__main__":
+    main()
