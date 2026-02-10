@@ -1,3 +1,4 @@
+# Lecture exercise - students       
 students = []
 
 with open("students.csv") as file:
