@@ -12,7 +12,7 @@ class Student:
         return self._name
     
     @name.setter
-    def name(self, name):
+    def name(self, name): 
         if not name:
             raise ValueError("Missing name")
         self._name = name
