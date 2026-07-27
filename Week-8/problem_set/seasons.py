@@ -2,19 +2,20 @@
 
 import sys
 from datetime import date
-
-class Date:
-    ...
+import inflect
+p = inflect.engine()
 
 def main():
 
     try:
         birthday = input("Date of birth: ")
         birthday = date.fromisoformat(birthday)
-        today = date.fromisoformat("2026-01-01")
+        today = date.today()
+        difference = today - birthday
+        minutes = difference.days * 24 * 60
 
-
-        
+        transcription = p.number_to_words(minutes).replace(" and ", " ")
+        print(transcription)
 
     except ValueError:
         sys.exit("Invalid date")
