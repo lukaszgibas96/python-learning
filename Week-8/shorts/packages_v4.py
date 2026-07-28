@@ -25,6 +25,6 @@ def main():
         Package(number = 2, sender = "Bob", recipient = "Charlie", weight = 5)
     ]
     for package in packages:
-        print(f"{package} costs ${package.calculate_cost(2)}")
+        print(f"{package} costs ${package.calculate_cost(cost_per_kg = 2)}")
 
 main()  
